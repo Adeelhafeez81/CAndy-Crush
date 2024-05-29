@@ -295,7 +295,7 @@ function generateCandy() {
 }
 
 function endGame() {
-  if (!gameEnded && score >= 10000) {
+  if (!gameEnded && score >= 1000) {
     gameEnded = true;
     document.getElementById("board").style.display = "none";
     let winMessage = document.createElement("h1");
